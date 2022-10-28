@@ -1,4 +1,5 @@
 Scripts for creating database is in sql folder.
+
 Database - MySql.
 Connection to database is established via /resources/jdbc.properties
 Server  - Apache Tomcat 9.0.58
