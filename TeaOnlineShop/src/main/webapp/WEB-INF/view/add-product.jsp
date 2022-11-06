@@ -4,6 +4,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" isELIgnored="false" %>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>Add Product</title>
     <link rel="stylesheet" type="text/css" href="/TeaOnlineShop/resources/css/add-product.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -12,7 +13,7 @@
 <body>
 <div class="container">
     <h1>Add Product</h1>
-    <form:form action="saveButton" modelAttribute="product" method="post">
+    <form:form action="saveButton" modelAttribute="product" method="post" >
         <div class="form-floating mb-3">
             <form:input path="name" type="text" class="form-control" id="floatingInput"
                         placeholder="Enter name of product"/>
@@ -32,7 +33,7 @@
         <div class="d-grid gap-2 d-md-block">
             <input type="submit" value="Submit" class="btn btn-success btn-lg">
             <button class="btn btn-secondary btn-lg" type="button"
-                    onclick="location.href='${pageContext.request.contextPath}/showProducts'">Cancel</button>
+                    onclick="location.href='${pageContext.request.contextPath}/admin/showProducts'">Cancel</button>
         </div>
     </form:form>
 </div>

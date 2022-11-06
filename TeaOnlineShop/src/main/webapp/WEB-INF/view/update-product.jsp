@@ -4,6 +4,7 @@
 <%@ page contentType="text/html;charset=utf8" pageEncoding="UTF-8" language="java" isELIgnored="false"%>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>UpdateProduct</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -35,7 +36,7 @@
         <div class="d-grid gap-2 d-md-block">
             <input type="submit" value="Submit" class="btn btn-success btn-lg">
             <button class="btn btn-secondary btn-lg" type="button"
-                    onclick="location.href='${pageContext.request.contextPath}/showProducts'">Cancel</button>
+                    onclick="location.href='${pageContext.request.contextPath}/admin/showProducts'">Cancel</button>
         </div>
     </form:form>
 </div>
